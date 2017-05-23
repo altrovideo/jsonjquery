@@ -9,3 +9,8 @@ h1 {
 p {
     margin: 0.25em 0;
 }
+img{
+
+    max-width:100%;
+    height: auto;
+}
