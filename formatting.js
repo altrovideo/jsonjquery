@@ -12,16 +12,6 @@
 
                         html +="<h2>"+response.posts[i].title+"</h2>"+"<p>"+response.posts[i].content+"</p>";
 
-                        $('#content img').each(function() {
-
-                            var theWidth = $(this).width();
-                            var theHeight = $(this).height();
-
-                            $(this).css({'margin-top': -theHeight / 2 + 'px', 'margin-left': -theWidth / 2 + 'px'});
-
-
-                        });
-
 
                     }
                     $("div").html(html);
